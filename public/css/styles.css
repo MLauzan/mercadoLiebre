@@ -259,8 +259,7 @@ input {
 
 .login {
   top: 50%;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 50%;
   position: relative;
   width: 300px;
   padding: 10px;
@@ -268,6 +267,7 @@ input {
   background-size: cover;
   text-align: center;
   justify-content: center;
+  margin-bottom: 50%;
 }
 
 .login input {
@@ -330,6 +330,7 @@ footer p {
   display: flex;
   margin-top: 10px;
   margin-left: 3px;
+ 
 }
 
 @media (min-width: 361px) {
@@ -387,7 +388,24 @@ footer p {
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+
+  .login {
+    top: 50%;
+    margin-top: 100px;
+    position: relative;
+    width: 350px;
+    padding: 15px;
+    background: #717D7E49;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  footer {  
+    margin-top: 114px;
+  }
 
   main section .products article {
     width: 24%;
@@ -433,6 +451,24 @@ footer p {
 }
 
 @media (min-width:1200px) {
+
+  .login {
+    top: 50%;
+    margin-top: 110px;
+    position: relative;
+    width: 350px;
+    padding: 15px;
+    background: #717D7E49;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  footer {  
+    margin-top: 189px;
+  }
+
 
  .copy-header {
     align-items: center;
