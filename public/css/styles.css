@@ -388,7 +388,17 @@ footer p {
 }
 
 
-@media (min-width: 768px) {
+@media  (min-width: 768px) {
+
+  .register {
+    margin-bottom: -90px;
+    margin-top: 100px;
+    position: flex;
+    width: 300px;
+    padding: 10px;
+    background: #717D7E49;
+    background-size: cover;
+}
 
   .login {
     top: 50%;
