@@ -16,6 +16,5 @@ app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/login.html'));
 })
 
-app.listen(3000, () => {
-    console.log('Servidor iniciado en http://localhost:3000');
-})
+const port = process.env.port || 3001;
+app.listen(port, () =>console.log(`Servidor iniciado en el puerto ${port}`));
