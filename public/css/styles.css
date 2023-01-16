@@ -460,7 +460,21 @@ footer p {
 
 }
 
-@media (min-width:1200px) {
+@media (min-width:1024px) {
+
+  .ultima-visita {
+    margin-top: 150px;
+  }
+
+  .ofertas {
+    margin-top: 150px;
+
+  }
+
+  main section .productos article {
+    width: 23%;
+    
+  }
 
   .login {
     top: 50%;
@@ -540,6 +554,7 @@ footer p {
     padding: 5px;
   }
 }
+
 
 
 @media (min-width:1200px) {
